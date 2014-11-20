@@ -1,0 +1,2 @@
+version=3
+https://github.com/magnars/s.el/releases /magnars/s.el/archive/(.+)\.tar\.gz

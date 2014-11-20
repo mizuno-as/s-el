@@ -1,0 +1,17 @@
+Source: s-el
+Section: lisp
+Priority: extra
+Maintainer: Hajime Mizuno <mizuno-as@ubuntu.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/magnars/s.el
+#Vcs-Git: git://git.debian.org/collab-maint/s-el.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/s-el.git;a=summary
+
+Package: s-el
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, emacsen-common (>= 2.0.8), emacs
+Description: String manipulation library for Emacs
+ s.el is API library to manipulate character string by Emacs Lisp.
+ For example, you can easily perform truncate, padding, concatenate,
+ remove prefix/suffix, tweak whitespace, and more functions.

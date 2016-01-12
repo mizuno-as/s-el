@@ -1,3 +1,9 @@
+s-el (1.10.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Hajime Mizuno <mizuno-as@ubuntu.com>  Tue, 12 Jan 2016 16:54:11 +0900
+
 s-el (1.9.0-1) unstable; urgency=low
 
   * Initial release (Closes: #770337)

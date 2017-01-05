@@ -10,6 +10,12 @@ PACKAGE=s-el
 
 if [ ${FLAVOR} = emacs ]; then exit 0; fi
 
+# see #812464
+if [ ${FLAVOR} = xemacs21 ]; then
+    echo install/${PACKAGE}: Skipping incompatible emacsen xemacs21
+    exit 0
+fi
+
 echo install/${PACKAGE}: Handling install for emacsen flavor ${FLAVOR}
 
 #FLAVORTEST=`echo $FLAVOR | cut -c-6`
